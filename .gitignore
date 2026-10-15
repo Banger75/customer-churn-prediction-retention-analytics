@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+data/*.csv
+data/*.xlsx
+*.joblib
+*.pkl
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor files
+.vscode/
+.DS_Store
+
+# Sensitive local data
+*.db
+*.sqlite
+*.sqlite3
